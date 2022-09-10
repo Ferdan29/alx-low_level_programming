@@ -14,7 +14,7 @@ int main(void)
 {
 	char casez;
 
-	for (casez = 'a'; casez <= 'z'; cesez++)
+	for (casez = 'a'; casez <= 'z'; casez++)
 		putchar(casez);
 
 	putchar('\n');
