@@ -15,7 +15,7 @@ int main(void)
 
 	for (casez = 'a'; casez <= 'z'; casez++)
 	{
-		if (casez != 'e'e && casez != 'q')
+		if (casez != 'e' && casez != 'q')
 			putchar(casez);
 	}
 
