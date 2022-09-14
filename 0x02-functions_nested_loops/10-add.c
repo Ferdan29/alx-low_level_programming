@@ -3,6 +3,8 @@
 /**
  * add - function to add to numbers
  * @re: the character to check
+ * @k: the first number to add.
+ * @y: the second number to add.
  *
  * Return: the result
  */
