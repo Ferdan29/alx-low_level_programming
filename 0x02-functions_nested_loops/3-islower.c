@@ -7,9 +7,7 @@
  */
 int _islower(int c)
 {
-	char a;
-
-	if (a == "[[:lower:]]")
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
@@ -17,5 +15,4 @@ int _islower(int c)
 	{
 		return (0);
 	}
-	_putchar('\n');
 }
