@@ -6,7 +6,7 @@
  * Auth: Ogunjale Feranmi
  * Desc: Header file containing declaratino for all function
  * used in the 2x02-functions_nested_loop directory.
- * 
+ *
  */
 int _putchar(char c);
 void print_alphabet(void);
