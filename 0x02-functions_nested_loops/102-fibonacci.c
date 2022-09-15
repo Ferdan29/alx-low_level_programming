@@ -7,19 +7,21 @@
  */
 int main(void)
 {
-	unsigned long f1 = 0, f2 = 1, fsum;
-	float t_sum;
+	unsigned long f1 = 0, f2 = 1, sum;
+	int count;
 
-	while (1)
+	for (count = 0; count < 50; count++)
 	{
-		fsum = f1 + f2;
-		if (fsum > 4000000)
-			break;
-		if ((fsum % 2) == 0)
-			t_sum += fsum;
+		sum = f1 + f2;
+		printf("%lu", sum);
+
 		f1 = f2;
-		f2 = fsum;
+		f2 = sum;
+
+		if (count == 49)
+			printf("\n");
+		else
+			printf(", ");
 	}
-	printf("%.0f\n", t_sum);
 	return (0);
 }
