@@ -3,7 +3,6 @@
 /**
  * print_rev - function that prints a string
  * @s: pointer variable
- * 
  * Return: Always 0.
  */
 void print_rev(char *s)
