@@ -13,7 +13,7 @@ void rev_string(char *s)
 	while (s[p++])
 		j++;
 
-	for (p = j; p >= j / 2; p++)
+	for (p = j - 1; p >= j / 2; p++)
 	{
 		ted = s[p];
 		s[p] = s[j - p - 1];
