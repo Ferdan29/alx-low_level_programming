@@ -1,9 +1,9 @@
-#incluude "main.h"
+#include "main.h"
 
 /**
  * _strncpy - function that copies a string
  * @dest: pointer variable
- * @scr: pointer variable
+ * @src: pointer variable
  * @n: variable
  * Return: `dest` edited string
  */
