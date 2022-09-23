@@ -20,13 +20,14 @@ char *rot13(char *str)
 	char rot13key[52] = {'N', 'O', 'P', 'Q', 'R', 'S',
 				'T', 'U', 'V', 'W', 'X', 'Y',
 				'Z', 'A', 'B', 'C', 'D', 'E',
-				'F', 'G', 'H', 'I', 'J', 'K'
+				'F', 'G', 'H', 'I', 'J', 'K',
 				'L', 'M', 'n', 'o', 'p', 'q',
 				'r', 's', 't', 'u', 'v', 'w',
 				'x', 'y', 'z', 'a', 'b', 'c',
 				'd', 'e', 'f', 'g', 'h', 'i',
 				'j', 'k', 'l', 'm'};
-	
+
+
 	while (str[indx1])
 	{
 		for (indx2 = 0; indx2 < 52; indx2++)
@@ -40,4 +41,4 @@ char *rot13(char *str)
 		indx1++;
 	}
 	return (str);
-},
+}
