@@ -43,6 +43,7 @@ void iterate_wild(char **wildstr)
 /**
  * postfix_match - Checks if a string str matches the postfix of
  * @str: The string to be matched.
+ * @postfix: The postfix.
  * Return: If str and postfix are identical - a pointer to the null
  */
 
