@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** * _pow_recursion - function that returns the value of x ^ y
+/**
+ * _pow_recursion - function that returns the value of x ^ y
  * @x: variable
  * @y: variable
  *
@@ -16,8 +17,7 @@ int _pow_recursion(int x, int y)
 	}
 	else if (j < y)
 	{
-		k *= y;
-		_pow_recursion(x, y);
+		k *= _pow_recursion( y);
 		j++;
 	}
 	return (k);
