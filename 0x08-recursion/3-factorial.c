@@ -14,10 +14,9 @@ int factorial(int n)
 	{
 		return (-1);
 	}
-	if (n == 0)
+	if (n >= 0 && n <= 1)
 	{
-		factorial(n) = 1;
-		res = 1;
+		return (1);
 	}
 	else
 		res = n * factorial(n-1);
