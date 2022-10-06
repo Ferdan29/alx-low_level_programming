@@ -19,8 +19,7 @@ char *_strdup(char *str)
 	if (p == NULL)
 		return (NULL);
 
-	if (p != NULL)
-		return (p);
+	return (p);
 
 	free(p);
 }
