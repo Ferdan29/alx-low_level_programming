@@ -6,5 +6,5 @@
 
 void main()
 {
-	printf("2-main.c\n");
+	printf("%s\n"_FILE_);
 }
